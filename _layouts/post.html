@@ -1,0 +1,15 @@
+---
+layout: centered
+---
+<h1>{{ page.title }}</h1>
+<article>
+	{{ content }}
+</article>
+<footer>
+<hr>
+<h2>Info</h2>
+<ul>
+	<li>Published {{ page.date | date_to_long_string }}</li>
+	<li>Last compiled {{ site.time | date_to_long_string }}</li>
+</ul>
+<footer>
